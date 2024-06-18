@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashikanth Bandoju - Full Stack Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Shashikanth Bandoju</h1>
+    <p>Full Stack Web Developer</p>
+</header>
+
+<nav>
+    <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+</nav>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Shashikanth Bandoju, a passionate Full Stack Web Developer with expertise in both front-end and back-end development. I love creating dynamic and responsive websites and applications that provide a great user experience. My skills include HTML, CSS, JavaScript, React, Node.js, and more. When I'm not coding, I enjoy reading tech blogs and exploring new technologies.</p>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Project 1:</strong> <a href="#">E-commerce Website</a> - A fully functional e-commerce website with user authentication, product listings, and a shopping cart.</li>
+        <li><strong>Project 2:</strong> <a href="#">Portfolio Website</a> - A personal portfolio website showcasing my projects and skills.</li>
+        <li><strong>Project 3:</strong> <a href="#">Blog Platform</a> - A platform where users can create and share blog posts.</li>
+    </ul>
+</section>
+
+<section id="resume" class="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume <a href="#">here</a>.</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me through the following methods:</p>
+    <ul>
+        <li>Email: <a href="mailto:shashikanth2044@gmail.com">shashikanth2044@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/shashikanthbandoju" target="_blank">linkedin.com/in/shashikanthbandoju</a></li>
+        <li>GitHub: <a href="https://github.com/Shashi0010" target="_blank">github.com/shashikanthbandoju</a></li>
+    </ul>
+</section>
+
+<footer>
+    &copy; 2024 Shashikanth Bandoju. All rights reserved.
+</footer>
+
+<script>
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    mobileMenu.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
